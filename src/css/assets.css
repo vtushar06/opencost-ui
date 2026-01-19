@@ -1,0 +1,97 @@
+/* Assets page Carbon Design System styles */
+
+/* KPI Tiles hover effects */
+.asset-kpi-tile:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Carbon DataTable enhancements */
+.cds--data-table {
+  background-color: #ffffff;
+}
+
+.cds--data-table tbody tr:hover td {
+  background-color: #e8e8e8;
+}
+
+.cds--data-table-container {
+  padding: 0;
+}
+
+/* Carbon Tabs styling */
+.cds--tabs--contained .cds--tabs__nav-item--selected {
+  border-bottom: 2px solid #0f62fe;
+}
+
+/* Carbon Charts adjustments */
+.asset-treemap-chart,
+.asset-donut-chart,
+.asset-stacked-bar-chart {
+  width: 100%;
+}
+
+/* Ensure charts are responsive */
+.bx--chart-holder {
+  width: 100%;
+}
+
+/* Tag improvements */
+.cds--tag {
+  margin: 0;
+}
+
+/* Progress bar in expanded rows */
+.cds--progress-bar {
+  min-width: 100px;
+}
+
+/* Table cell alignment */
+.cds--data-table td {
+  vertical-align: middle;
+}
+
+/* Expanded row styling */
+.cds--data-table .cds--parent-row.cds--expandable-row + tr[data-child-row] {
+  background-color: #f4f4f4;
+}
+
+/* Dropdown styling for header controls */
+.cds--dropdown {
+  background-color: #ffffff;
+}
+
+/* Loading state centering */
+.cds--loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Notification adjustments */
+.cds--inline-notification {
+  max-width: 100%;
+}
+
+/* Responsive grid adjustments */
+@media (max-width: 768px) {
+  .asset-kpi-tile {
+    min-width: 100% !important;
+  }
+}
+
+/* Carbon tooltip z-index fix */
+.cds--tooltip {
+  z-index: 9999;
+}
+
+/* Chart tooltip styling */
+.bx--cc--tooltip {
+  z-index: 9999 !important;
+}
+
+/* Gauge chart centering */
+.asset-gauge-chart {
+  display: flex;
+  justify-content: center;
+}
